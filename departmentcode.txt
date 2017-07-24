@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title></title>
+      <link rel="stylesheet" href="cloud.css">
+         <link rel="shortcut icon"  href="icons/logo.png">
+    </head>
+    <body>
+        <div class="style">
+           <center> <legend>cloud computing</legend></center>
+            <div class="h">
+           <p></p>
+          <a href="https://www.tutorialspoint.com/cloud_computing/cloud_computing_overview.htm">click in here</a></div>
+            <center><legend></legend></center>
+      <a href="https://" ><img src="icons/"> </a>
+
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+css
+
+body{background-image:  url(icons/background.png)}
+.style{  background: rgba(255, 128, 128, 0.4);
+ 
+  border: 3px solid #00cc99;
+  border-radius: 5px;
+  text-align: center;
+  min-height: 200px;
+   color: #ff8080;
+}
+ @font-face {
+                    font-family:riffic-bold;
+                    src: url('fonts/riffic-bold.otf');
+                    font-weight: normal;
+                    font-style: normal;}
+ legend{font-size: 60px; text-align:center; font-family: riffic-bold;}
+ .h{
+     font-family:riffic-bold;
+  margin-bottom: 20px;
+  padding: 0 16%;
+  color: #555;
+  font-size: 20px;
+  line-height: 21px;
+  color: #333;
+ }

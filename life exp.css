@@ -1,0 +1,100 @@
+body{background:url(icons/background.png);
+margin: 0;
+padding: 0;}
+             
+              
+             fieldset{width:95%;
+             margin-left:20px;
+             background: rgba(255, 128, 128, 0.4);
+             border: 3px solid #00cc99;
+             text-align: center;
+             border-radius: 25px;
+             font-family:riffic-bold;
+             word-spacing: 3px;
+                    }
+            fieldset.contact{
+                width:0%;height: auto;
+                background: rgba(221, 221, 221, 0.5);
+                text-align: center;border: none;
+                 border-radius: 25px;clear: both
+                 
+                 }
+              legend{color:#ff8080; text-shadow: 2px 2px #333 ;font-size: 40px;text-align: center; font-family:Courgette-Regular;}
+
+             img {border-radius: 100%;}
+#logo img {
+    border-radius: 0;
+}     
+              div{ letter-spacing: 4px; word-spacing: 4px; font-family:Oxygen-Regular;}
+              
+              h1{color:#ff8080; text-shadow: 2px 2px #333 ;font-size: 70px;  font-family:Courgette-Regular;}
+              
+              
+           ul{
+                list-style-type: none;
+                margin: 0px;
+                margin-top: 0;
+                padding: 3px;
+                height: 60px;
+                width: auto;
+                overflow:   visible;
+                background-color:#ff8080;
+                 width: 99.5%;
+                text-align: center;
+                align-content: center;
+                
+}
+#logo{
+    float:left;
+    padding-top:10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+            li{
+                float:left;    
+                padding: 10px;
+                text-align: center;}
+                
+            li a{
+                font-family: Cinzel-Bold;
+                display: block;
+                color: #FFFFFF;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: blink;
+                font-weight: bold}
+                
+                li a:hover{
+                    background-color:#00cc99;
+                    -webkit-transform: rotate(-10deg) scale(1.2);
+                    -moz-transform: rotate(-10deg) scale(1.2);
+                    -o-transform: rotate(-10deg) scale(1.2);}
+                    
+                @font-face {
+                    font-family:Cinzel-Bold;
+                    src: url('fonts/Cinzel-Bold.ttf');
+                    font-weight: normal;  
+                    font-style: normal;}
+                    
+                 @font-face {
+                    font-family:Oxygen-Regular;
+                    src: url('fonts/Oxygen-Regular.ttf');
+                    font-weight: normal;
+                    font-style: normal;}
+ @font-face {
+                    font-family:Courgette-Regular;
+                    src: url('fonts/Courgette-Regular.ttf');
+                    font-weight: normal;  
+                    font-style: normal;}
+                    
+                     textarea{
+                        background: none;font-size: 21px;font-weight: 700;color: #FFF;
+                    border: none;
+					border-left: 5px solid;
+					background: none;
+					border-color: rgb(225, 40, 54);
+					color: #fff;
+					font-weight: 600;
+					font-size: 21px;
+                    text-align: center;}

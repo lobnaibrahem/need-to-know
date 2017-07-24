@@ -1,0 +1,146 @@
+html,body{background: url('icons/background.png');
+margin: 0;
+padding: 0;}
+.header img {
+    top: 0;
+  float: left;
+  margin-top: 0px;
+  width: 140px;
+  height: 140px;
+
+}
+
+              
+            ul{
+                list-style-type: none;
+                margin: 0px;
+                margin-top: 0;
+                padding: 3px;
+                height: 60px;
+                width: auto;
+                overflow:   visible;
+                background-color:#ff8080;
+                 width: 99.5%;
+                text-align: center;
+                align-content: center;
+                
+}
+#logo{
+    float:left;
+    padding-top:10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+            li{
+                float:left;    
+                padding: 10px;
+                text-align: center;}
+                
+            li a{
+                font-family: Cinzel-Bold;
+                display: block;
+                color: #FFFFFF;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: blink;
+                font-weight: bold}
+                
+                li a:hover{
+                    background-color:#00cc99;
+                    -webkit-transform: rotate(-10deg) scale(1.2);
+                    -moz-transform: rotate(-10deg) scale(1.2);
+                    -o-transform: rotate(-10deg) scale(1.2);}
+                    
+                @font-face {
+                    font-family:Cinzel-Bold;
+                    src: url('fonts/Cinzel-Bold.ttf');
+                    font-weight: normal;  
+                    font-style: normal;}
+ @font-face {
+                    font-family:Oxygen-Regular;
+                    src: url('fonts/Oxygen-Regular.ttf');
+                    font-weight: normal;  
+                    font-style: normal;}
+@font-face {
+                    font-family:Courgette-Regular;
+                    src: url('fonts/Courgette-Regular.ttf');
+                    font-weight: normal;  
+                    font-style: normal;}
+fieldset.contact{width:200px; margin: auto; height: 600px;background: rgba(255,255,255,.5);text-align: center;border: 3px solid #00cc99;;
+                    border-radius: 25px;clear: both;margin-top:20px;height: 640px}
+form{position: relative; align-content: center; width: 100%;margin: auto;clear: both}
+						
+				input[type="submit"]{width: 50%;border-radius: 5px;
+					text-align: center;
+										display: block;
+
+					background: rgb(225, 40, 54);
+					color: #fff;
+					font-size: 21px;height: auto;padding: 10px;border: none}
+                    
+					textarea{background: none;font-size: 21px;font-weight: 700;color: #FFF;
+                    border: none;
+					border-left: 5px solid;
+					background: none;
+					border-color: rgb(225, 40, 54);
+					color: #fff;
+					font-weight: 600;
+					font-size: 21px;
+                    text-align: center;}
+                    
+                    input{width: auto;height: 30px}
+				
+                input[name="Username"]{background: #11FFF3;color: blue}
+                
+                input[type="text"]{width: 200px;font-size: 20px;
+				border: none;
+									display: block;
+
+					border-left: 5px solid;
+					background: none;
+					border-color: rgb(225, 40, 54);
+					color: #fff;
+					font-weight: 600;
+					font-size: 21px;
+                     height: 40px;
+                     text-align: center;}
+                     
+				input:focus{
+						display: block;
+						outline: 0;
+						background: rgba(225, 40, 54,.2);
+						border-radius: 25px;
+						border-color: transparent;}
+                        
+				input[type="email"]{width: 200px;font-size: 20px;
+					display: block;
+                    border: none;
+					border-left: 5px solid;
+					background: none;
+					border-color: rgb(225, 40, 54);
+					color: #fff;
+					font-weight: 600;
+					font-size: 21px;
+                    height: 40px;
+                    text-align: center;}
+                    
+                    input:focus{
+						display: block;
+						outline: 0;
+						background: rgba(225, 40, 54,.2);
+						border-radius: 25px;
+						border-color: transparent;}
+                        
+                     textarea:focus{
+						outline: 0;
+						background: rgba(225, 40, 54,.2);
+						border-radius: 25px;
+						border-color: transparent;}
+                        
+
+                    
+                    
+                   legend{text-align:center;font-size: 50px;color:#ff8080; text-shadow: 2px 2px #333 ;font-family:Courgette-Regular;margin: auto;}
+
+                    

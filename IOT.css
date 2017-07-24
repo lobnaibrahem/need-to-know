@@ -1,0 +1,31 @@
+body{background-image:  url(icons/background.png)}
+.style{  background: rgba(255, 128, 128, 0.4);
+  border: 3px solid #00cc99;
+  border-radius: 5px;
+  text-align: center;
+  min-height: 200px;
+   color: #ff8080;
+}
+ @font-face {
+                    font-family:Oxygen-Regular;
+                    src: url('fonts/Oxygen-Regular.ttf');
+                    font-weight: normal;
+                    font-style: normal;}
+ @font-face {
+                    font-family:Courgette-Regular;
+                    src: url('fonts/Courgette-Regular.ttf');
+                    font-weight: normal;
+                    font-style: normal;}
+ legend{font-size: 60px; text-align:center; font-family: Courgette-Regular; color:#ff8080; text-shadow: 2px 2px #333 ; }
+ .h{
+     font-family:Oxygen-Regular;
+     
+  margin-bottom: 20px;
+  padding: 0 16%;
+  color: #555;
+  font-size: 20px;
+  line-height: 21px;
+  color: #333;
+   word-spacing: 3px;
+     letter-spacing: 2px;
+ }

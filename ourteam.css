@@ -1,0 +1,96 @@
+body{ background-image: url(icons/background.png);
+margin: 0;
+padding: 0;}
+ul{
+                list-style-type: none;
+                margin: 0px;
+                margin-top: 0;
+                padding: 3px;
+                height: 60px;
+                width: auto;
+                overflow:   visible;
+                background-color:#ff8080;
+                 width: 99.5%;
+                text-align: center;
+                align-content: center;
+                
+}
+#logo{
+    float:left;
+    padding-top:10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#logo img {
+    border-radius: 0;
+    height: 60px;
+    width: 90px;
+}    
+            li{
+                float:left;    
+                padding: 10px;
+                text-align: center;
+}
+                
+            li a{
+                font-family: Cinzel-Bold;
+                display: block;
+                color: #FFFFFF;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: blink;
+                font-weight: bold}
+                
+                li a:hover{
+                    background-color:#00cc99;
+                    -webkit-transform: rotate(-10deg) scale(1.2);
+                    -moz-transform: rotate(-10deg) scale(1.2);
+                    -o-transform: rotate(-10deg) scale(1.2);}
+                @font-face {
+                    font-family:Oxygen-Regular;
+                    src: url('fonts/Oxygen-Regular.ttf');
+                    font-weight: normal;
+                    font-style: normal;}
+ @font-face {
+                    font-family:Courgette-Regular;
+                    src: url('fonts/Courgette-Regular.ttf');
+                    font-weight: normal;  
+                    font-style: normal;}
+@font-face {
+                    font-family:Cinzel-Bold;
+                    src: url('fonts/Cinzel-Bold.ttf');
+                    font-weight: normal;  
+                    font-style: normal;}
+ div.abt img{
+                         display: inline-block;
+                            position: relative;
+                            width: 200px;
+                            height: 200px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                    }
+
+     .lobna img {
+                       width: auto;height: 100%;
+                       
+                                        }
+
+ .abt img{ 
+                    width: auto;height: 100%;
+}
+
+ fieldset{width:95%;
+ margin-top: -10px;
+             margin-left:20px;
+             background: rgba(255, 128, 128, 0.4);
+             border: 3px solid #00cc99;
+             text-align: center;
+             border-radius: 25px;
+             font-family:riffic-bold;
+             word-spacing: 3px;
+                    }
+h1{text-align:center;font-size: 70px;color:#ff8080; text-shadow:3px 3px #333 ;font-family:Courgette-Regular; margin:50px;}
+
+legend{text-align:center;font-size: 50px;color:#ff8080; text-shadow: 2px 2px #333 ;font-family:Courgette-Regular;margin: auto;}
+p{font-size: 30px;text-align: center;  font-family:Oxygen-Regular;}

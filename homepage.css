@@ -1,0 +1,70 @@
+html,body{background: #3c3c5d;
+margin: 0;
+padding: 0;}
+.header img {
+    top: 0;
+  float: left;
+  margin-top: 0px;
+  width: 140px;
+  height: 140px;
+
+}
+                  div{font-family: Amatic-Bold; text-shadow: 2px 2px #333 ; }
+                  p{font-size: 60px;text-align: center ; color:  #ff8080;}
+            ul{
+                list-style-type: none;
+                margin-top: 0px;
+               
+                margin-left: 300px;
+                padding-top: 20px;
+                padding-bottom: 30px;
+                height: 60px;
+                width: auto;
+                overflow:   visible;
+                position:static;
+                top: 0;
+                width: 70%;
+                text-align: center;
+                align-content: center;
+             
+                }
+    
+            li{
+                float:left;
+                padding: 20px;
+                text-align: center;}
+                
+            li a{
+                font-family: Cinzel-Bold;
+                display: block;
+                color:#FFF0F5;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: blink;
+                font-weight: bold}
+                
+                li a:hover{
+                    background-color:#00cc99;
+                    -webkit-transform: rotate(-10deg) scale(1.2);
+                    -moz-transform: rotate(-10deg) scale(1.2);
+                    -o-transform: rotate(-10deg) scale(1.2);}
+                    
+             @font-face {
+                    font-family:Cinzel-Bold;
+                    src: url('fonts/Cinzel-Bold.ttf');
+                    font-weight: normal;  
+                    font-style: normal;}
+                    
+                @font-face {
+                    font-family:Amatic-Bold;
+                    src: url('fonts/Amatic-Bold.ttf');
+                    font-weight: normal;
+                    font-style: normal;}
+                    
+                    input[type="submit"]
+                    {width: 20%;border-radius: 5px;
+					background: #00cc99;
+					color: #fff;
+					font-size: 21px;height: auto;padding: 10px;border: none}
+                    
+
