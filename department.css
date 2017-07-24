@@ -100,3 +100,12 @@ ul{
                     src: url('fonts/riffic-bold.otf');
                     font-weight: normal;
                     font-style: normal;}
+footer{background:rgba(255, 128, 128, 0.4);
+;
+color:black;
+text-align: center;
+padding: 20px;
+font-size: 24px;
+position: static;
+margin-top: 140px;
+}
