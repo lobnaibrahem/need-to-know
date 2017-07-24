@@ -1,4 +1,4 @@
- body{ background-image: url(icons/background.png); margin:0; padding:0;}
+body{ background-image: url(icons/background.png); margin:0; padding:0;}
  ul{
                 list-style-type: none;
                 margin: 0px;
@@ -63,4 +63,13 @@
 
 
                     legend{color:#ff8080; text-shadow: 2px 2px #333 ;font-size: 80px;text-align: center;font-family:Courgette-Regular;}
+footer{background:rgba(255, 128, 128, 0.4);
+;
+color:black;
+text-align: center;
+padding: 20px;
+font-size: 24px;
+position: static;
+margin-top: 140px;
+}
                 
