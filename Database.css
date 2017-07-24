@@ -1,13 +1,50 @@
 
-body{background-image:  url(icons/background.png)}
-.style{  background: rgba(255, 128, 128, 0.4);
-  border: 3px solid #00cc99;
-  border-radius: 5px;
-  text-align: center;
-  min-height: 200px;
-   color: #ff8080;
+body{ background-image: url(icons/background.png);
+margin: 0;
+padding: 0;}
+ul{
+                list-style-type: none;
+                margin: 0px;
+                margin-top: 0;
+                padding: 3px;
+                height: 60px;
+                width: auto;
+                overflow:   visible;
+                background-color:#ff8080;
+                 width: 99.5%;
+                text-align: center;
+                align-content: center;
+                
+                
 }
- @font-face {
+#logo{
+    float:left;
+    padding-top:10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+            li{
+                float:left;    
+                padding: 10px;
+                text-align: center;
+}
+                
+            li a{
+                font-family: Cinzel-Bold;
+                display: block;
+                color: #FFFFFF;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: blink;
+                font-weight: bold}
+                
+                li a:hover{
+                    background-color:#00cc99;
+                    -webkit-transform: rotate(-10deg) scale(1.2);
+                    -moz-transform: rotate(-10deg) scale(1.2);
+                    -o-transform: rotate(-10deg) scale(1.2);}
+                @font-face {
                     font-family:Oxygen-Regular;
                     src: url('fonts/Oxygen-Regular.ttf');
                     font-weight: normal;
@@ -15,20 +52,61 @@ body{background-image:  url(icons/background.png)}
  @font-face {
                     font-family:Courgette-Regular;
                     src: url('fonts/Courgette-Regular.ttf');
-                    font-weight: normal;
+                    font-weight: normal;  
                     font-style: normal;}
- legend{font-size: 60px; text-align:center; font-family: Courgette-Regular; color:#ff8080; 
+@font-face {
+                    font-family:Cinzel-Bold;
+                    src: url('fonts/Cinzel-Bold.ttf');
+                    font-weight: normal;  
+                    font-style: normal;}
+.department{
+               background: rgba(255, 128, 128, 0.4);
+  margin-bottom: 40px;
+    margin-top: 80px;
+  padding: 0 0 20px;
+  border: 3px solid #00cc99;
+  border-radius: 5px;
+  text-align: center;
+  min-height: 200px;
+   color: #ff8080;
+}
 
-text-shadow: 2px 2px #333 ; }
- .h{
-     font-family:Oxygen-Regular;
-     
+.department h2 {
+    color:#ff8080; text-shadow: 2px 2px #333 ;
+  font-family: Courgette-Regular;
+  margin-bottom: 10px;
+  margin-top: -1px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-shadow: 2px 2px #333 ;
+}
+.department h4 {
+  font-family:Oxygen-Regular;
   margin-bottom: 20px;
   padding: 0 16%;
   color: #555;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 21px;
   color: #333;
    word-spacing: 3px;
-     letter-spacing: 2px;
- }
+    letter-spacing: 1px;
+}
+ input[type="submit"]
+                    {width: 20%;border-radius: 5px;
+	background: #3c3c5d;
+	color:#ff8080 ;
+	font-size: 21px;height: auto;padding: 10px;border: none}
+ @font-face {
+                    font-family:riffic-bold;
+                    src: url('fonts/riffic-bold.otf');
+                    font-weight: normal;
+                    font-style: normal;}
+footer{background:rgba(255, 128, 128, 0.4);
+;
+color:black;
+text-align: center;
+padding: 20px;
+font-size: 24px;
+position: static;
+margin-top: 140px;
+}
